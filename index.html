@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Resume</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #B0C4DE;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 10%;
+  height: 900px; /* only for demonstration, should be removed */
+  background: #778899;
+  padding: 10px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 40px;
+  width: 90%;
+  background-color: #f1f1f1;
+  height: 900px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #B0C4DE;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+
+
+<header>
+  <h2>Cities</h2>
+</header>
+
+<section>
+
+  <nav>
+    <h2>Intership</h2>
+    <ul>
+      <li><a href="#">Ethical hacking</a></li>
+      <li><a href="#">Html and css</a></li>
+      <li><a href="#">Php,Bootstrap</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+
+    <img src="new.jpg" width="200" height="250">
+    <h1>Komal Mhatre</h1>
+    <p>Third year,Information Technology</p>
+    <p>Bachelor of Engineering,Mumbai University</p>
+    <p>Contact no:9527519172</p>
+    <p>Email id:komalmhatre31@gmail.com</p>
+    <p>Linked in:</p>
+
+
+    <h2>Eduaction</h2>
+    <p>Bachelor of Engineering</p>
+    <p>Mumbai university(2018-2022)</p>
+    <p>Datta Meghe College of Engineering,Navi Mumbai</p>
+
+    <h2>Strength</h2>
+    <p>Leadership</p>
+    <p>Team player</p>
+    <p>communication skills</p>
+    <p>public speaking</p>
+
+
+
+  </article>
+</section>
+
+<footer>
+  <p>Footer</p>
+</footer>
+
+</body>
+</html>
